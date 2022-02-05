@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Get Latest Sourcecode') {
             steps {
-	        git 'https://github.com/ravishsubramanya/Jenkins_multijob_pipeline_code.git'
+	        git 'https://github.com/sivaares15/Jenkins_multijob_pipeline_code.git'
             }
         }
         stage('Compile') {
